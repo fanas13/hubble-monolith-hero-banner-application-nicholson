@@ -33,6 +33,11 @@
   color: white;
 }
 
+.slider__container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .App-link {
   color: #61dafb;
 }
