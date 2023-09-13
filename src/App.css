@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.appshell__container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
