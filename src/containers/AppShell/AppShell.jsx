@@ -1,4 +1,6 @@
 import Grid from '@mui/material/Grid';
+import { Outlet } from 'react-router-dom';
+
 const AppShell = () => {
     return(
         <div
@@ -8,7 +10,7 @@ const AppShell = () => {
             }}
             >
             <Grid container justifyContent="center" alignItems="center" style={{ minHeight: '100vh' }}>
-                ssss
+                <Outlet /> 
             </Grid>
         </div>
     )
