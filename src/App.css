@@ -8,6 +8,9 @@
   min-height: 100vh;
 }
 
+.appshell__overlay {
+  background-color: rgb(0 0 0 / 46%);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -41,4 +44,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  display: block;
+}
+
+.card {
+  max-width: 90%;
+  min-width: calc(1200px / 6);
+  height: 150px;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-list {
+  display: block;
+  overflow: hidden;
 }

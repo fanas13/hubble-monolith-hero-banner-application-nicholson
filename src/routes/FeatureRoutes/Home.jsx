@@ -2,6 +2,7 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import styled from 'styled-components';
+import CarouselSilder from '../../components/Sliders/CarouselSilder';
 
 const Home = (props) => {
     const { className } = props;
@@ -34,6 +35,14 @@ const Home = (props) => {
                     </Grid>
                     <Grid item xs={12} md={4}>
                         <StyledButton fullWidth variant="outlined" disableElevation>Speak to our team</StyledButton>
+                    </Grid>
+                </Grid>
+                <Grid item xs={12} md={4} />
+            </>
+            <>
+                <Grid item spacing={1} xs={12} md={12} container margin="40px 0 0 0">
+                    <Grid item xs={12}>
+                        <CarouselSilder />
                     </Grid>
                 </Grid>
                 <Grid item xs={12} md={4} />
